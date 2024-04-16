@@ -5,8 +5,8 @@ st.set_page_config(
     page_title="Home",
     page_icon=''
 )
-image_path='/home/eduardo_matos/venv_jupyter/'
-image=Image.open(image_path + 'logo.png')
+#image_path='/home/eduardo_matos/venv_jupyter/'
+image=Image.open( 'logo.png')
 
 st.sidebar.image(image,width=120)
 
